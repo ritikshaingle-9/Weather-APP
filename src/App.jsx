@@ -38,14 +38,14 @@ const App = () => {
   }, [city])
 
   return (
-    <div className='bg-green-200 min-h-screen'>
+    <div className='bg-blue-200 min-h-screen'>
         <img src={weatherImage} className='h-[300px] mx-auto'></img>
         <input 
             type='text' 
             value={city} 
             onChange={(e) => setCity(e.target.value)}
-            placeholder='Search Your City...'
-            className='border border-green-500 p-2 w-1/2 bg-white mx-auto block text-4xl text-center focus:outline-none rounded-full'
+            placeholder='Search your city...'
+            className='border border-blue-500 p-2 w-1/2 bg-white mx-auto block text-3xl text-center focus:outline-none rounded-full'
         />
 
         <div className='bg-white opacity-80 p-4 mt-4 w-1/2 mx-auto rounded-lg text-2xl'>
