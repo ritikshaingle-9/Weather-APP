@@ -45,7 +45,7 @@ const App = () => {
             value={city} 
             onChange={(e) => setCity(e.target.value)}
             placeholder='Search your city...'
-            className='border border-blue-500 p-2 w-1/2 bg-white mx-auto block text-3xl text-center focus:outline-none rounded-full'
+            className='border-1 border-blue-400 p-2 w-1/2 bg-white mx-auto block text-3xl text-center focus:outline-none rounded-full'
         />
 
         <div className='bg-white opacity-80 p-4 mt-4 w-1/2 mx-auto rounded-lg text-2xl'>
